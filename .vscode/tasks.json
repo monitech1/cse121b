@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "e:\\JavaScript cse121b",
+			"problemMatcher": [
+				"$jshint-stylish"
+			],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
