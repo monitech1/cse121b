@@ -89,7 +89,7 @@ picture {
 }
 
 picture img {
-    width: 240px;
+    width: 200px;
     height: auto;
     border-radius: 5%;
     border: 1px solid #ccc;
@@ -116,6 +116,24 @@ footer {
     position: fixed;
     bottom: 0;
 }
+#temples {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 
 /* Class Selectors */
 .active {
